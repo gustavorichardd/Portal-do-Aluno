@@ -10,3 +10,4 @@ app.use(routes);
 // Funciona assim: Se for testar o banco local, você executa o npm start e ele vai rodar na porta 3333
 // Se você quiser rodar pelo heroku, ele vai pegar o valor de porta que o heroku der.
 app.listen(process.env.PORT || 3333);
+
